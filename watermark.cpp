@@ -2,6 +2,8 @@
 
 #include <QtWidgets>
 
+
+//仅支持全屏幕水印. 窗口水印可参考QWindow::fromWinId  QWidget::createWindowContainer.
 WaterMarkWidget::WaterMarkWidget(QString text, QWidget *parent)
     : QWidget(parent)
 {
